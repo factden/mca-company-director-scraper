@@ -1,0 +1,30 @@
+{
+  "rowType": "company",
+  "cin": "U63999MH2024PTC431654",
+  "name": "CRESTFORT TECHNOLOGIES PRIVATE LIMITED",
+  "status": "Active",
+  "companyType": "Company",
+  "companyCategory": "Company limited by Shares",
+  "listed": false,
+  "companyEmail": "contact@example.com",
+  "dateOfIncorporation": "08/31/2024",
+  "industryDescription": "INFORMATION SERVICE ACTIVITIES",
+  "mainDivision": "63",
+  "state": "MH",
+  "roc": "RoC-Mumbai",
+  "authorisedCapital": "1000000",
+  "paidUpCapital": "536260",
+  "lastAgmDate": "",
+  "registeredAddress": {
+    "city": "Mumbai",
+    "state": "MH",
+    "postalCode": "400001",
+    "country": "IN"
+  },
+  "boardSize": 2,
+  "smallCompany": true,
+  "underCIRP": false,
+  "annualReturnDefaulter": false,
+  "balanceSheetDefaulter": false,
+  "retrievedAt": "2026-08-13T12:00:00Z"
+}

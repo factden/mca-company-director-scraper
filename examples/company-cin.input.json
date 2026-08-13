@@ -1,0 +1,6 @@
+{
+  "mode": "company",
+  "cins": ["U63999MH2024PTC431654", "U15100AS2019PTC019149"],
+  "includeDirectors": true,
+  "maxCompanies": 200
+}

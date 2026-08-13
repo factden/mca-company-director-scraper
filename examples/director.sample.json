@@ -1,0 +1,32 @@
+{
+  "rowType": "director",
+  "din": "09397486",
+  "name": "KARAN NEERAJKUMAR MEHRA",
+  "status": "Approved",
+  "disqualified": false,
+  "dob": "",
+  "gender": "MALE",
+  "nationality": "INDIAN",
+  "educationalQualification": "",
+  "directorshipCount": 2,
+  "directorships": [
+    {
+      "cin": "U72900KA2021PTC000000",
+      "company": "EXAMPLE LABS PRIVATE LIMITED",
+      "designation": "Director",
+      "role": "Director/Designated Partner",
+      "effectiveDate": "05/17/2021",
+      "cessationDate": null,
+      "active": true
+    },
+    {
+      "cin": "U62011MH2023PTC000000",
+      "company": "EXAMPLE SOFTWARE PRIVATE LIMITED",
+      "designation": "Director",
+      "role": "Director/Designated Partner",
+      "effectiveDate": "01/10/2023",
+      "cessationDate": null,
+      "active": true
+    }
+  ]
+}
