@@ -8,6 +8,8 @@
   "gender": "MALE",
   "nationality": "INDIAN",
   "educationalQualification": "",
+  "email": "director@example.com",
+  "phone": "9876543210",
   "directorshipCount": 2,
   "directorships": [
     {

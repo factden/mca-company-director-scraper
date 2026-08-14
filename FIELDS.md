@@ -1,7 +1,8 @@
 # Data dictionary
 
 The Actor writes to a **default** dataset plus typed **Companies**, **Directors**, and **Director Leads** views.
-Every field below is public corporate-registry data.
+Most fields below are public corporate-registry data. The director `email` and `phone` are personal contact
+data, fetched only as a paid enrichment and subject to the DPDP Act, 2023 (see the store listing for details).
 
 ## Companies
 
@@ -45,8 +46,10 @@ Every field below is public corporate-registry data.
 | `gender` | string | Gender (as published) |
 | `nationality` | string | Nationality |
 | `educationalQualification` | string | Educational qualification (when available) |
+| `email` | string | Director's personal email. Paid contact enrichment; empty when not fetched or not on file |
+| `phone` | string | Director's personal phone. Paid contact enrichment; empty when not fetched or not on file |
 | `directorshipCount` | integer | Number of companies the person directs |
-| `directorships` | array | The directorship network — one entry per company |
+| `directorships` | array | The directorship network, one entry per company |
 
 Each `directorships[]` entry: `cin`, `company`, `designation`, `role`, `effectiveDate`, `cessationDate`, `active`.
 
@@ -54,5 +57,5 @@ Each `directorships[]` entry: `cin`, `company`, `designation`, `role`, `effectiv
 
 The **Director Leads** view is the `Directors` data unwound to **one row per directorship** (director identity +
 per-company columns), for a flat, CRM-ready table. Columns: `din`, `name`, `cin`, `company`, `designation`,
-`role`, `effectiveDate`, `cessationDate`, `active`, `gender`, `dob`, `nationality`, `status`, `disqualified`,
-`directorshipCount`.
+`role`, `email`, `phone`, `effectiveDate`, `cessationDate`, `active`, `gender`, `dob`, `nationality`,
+`status`, `disqualified`, `directorshipCount`.

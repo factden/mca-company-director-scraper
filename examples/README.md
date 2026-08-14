@@ -20,4 +20,4 @@ Copy-paste input configs and illustrative output rows for the
 | [`companies.sample.csv`](companies.sample.csv) | A few Companies rows as CSV |
 
 Paste an input config into the Actor's **Input** tab (JSON view), or pass it as the run input via the
-[Apify API](https://docs.apify.com/api/v2) — see [../snippets/](../snippets/).
+[Apify API](https://docs.apify.com/api/v2); see [../snippets/](../snippets/).
