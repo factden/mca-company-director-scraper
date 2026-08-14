@@ -46,8 +46,8 @@ data, fetched only as a paid enrichment and subject to the DPDP Act, 2023 (see t
 | `gender` | string | Gender (as published) |
 | `nationality` | string | Nationality |
 | `educationalQualification` | string | Educational qualification (when available) |
-| `email` | string | Director's personal email. Paid contact enrichment; empty when not fetched or not on file |
-| `phone` | string | Director's personal phone. Paid contact enrichment; empty when not fetched or not on file |
+| `email` | string | Director's personal email as registered with MCA (DIN / DIR-3 KYC). Paid contact enrichment; empty when not fetched or not on file |
+| `phone` | string | Director's personal phone as registered with MCA (DIN / DIR-3 KYC). Paid contact enrichment; empty when not fetched or not on file |
 | `directorshipCount` | integer | Number of companies the person directs |
 | `directorships` | array | The directorship network, one entry per company |
 
