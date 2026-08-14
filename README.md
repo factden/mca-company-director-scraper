@@ -27,8 +27,8 @@ scraper runs as a managed Actor on Apify (nothing to install or maintain).
   just one CIN at a time.
 - 🏆 **Company + director graph:** company master record, the full board, and each director's complete
   directorship network.
-- 🏆 **Director contacts:** each director's personal email and phone as an opt-in paid enrichment, billed only
-  when a contact is found.
+- 🏆 **Director contacts:** each director's personal email and phone as an opt-in paid enrichment. **Charged
+  once per unique director (DIN), and only when a contact is actually found**, never per row.
 - 🏆 **Registry firmographics:** status, type, capital, ROC, addresses, and 3-year filing history.
 - 🏆 **No setup:** no portal login, no API key, no CAPTCHA handling.
 
