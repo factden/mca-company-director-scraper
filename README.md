@@ -13,6 +13,10 @@ This repo is the **open documentation** for the hosted
 on Apify: field dictionary, how-to guide, copy-paste input examples, and Python / Node / cURL snippets. The
 scraper runs as a managed Actor on Apify (nothing to install or maintain).
 
+**Watch the walkthrough:**
+
+[![Watch: how to scrape India MCA company and director data with email and phone, no code](https://img.youtube.com/vi/PhZmoVHMjTE/maxresdefault.jpg)](https://www.youtube.com/watch?v=PhZmoVHMjTE)
+
 <p align="center">
   <a href="https://apify.com/factden/mca-company-director-scraper?fpr=factden">
     <img src="https://raw.githubusercontent.com/factden/apify-actor-assets/main/mca-company-director-scraper/04-director-contacts.png"
