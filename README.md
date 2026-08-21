@@ -142,6 +142,10 @@ enrichment (email and phone) returns personal data. You are responsible for usin
 with applicable data-protection law, including **India's DPDP Act, 2023**, and for having a lawful basis for
 any personal data you process.
 
+Actual director phone numbers and email IDs, and the company email, are available on paid Apify plans only; free
+runs include full company records, director profiles and directorship networks, with contact fields redacted or
+omitted.
+
 ## Other FactDen scrapers
 
 - [Booking.com Scraper](https://apify.com/factden/booking-com-scraper?fpr=factden) - hotels, live prices, per-room rates, availability & occupancy, and guest reviews across a whole city or one hotel ([docs](https://github.com/factden/booking-com-scraper))
