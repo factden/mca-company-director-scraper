@@ -151,6 +151,7 @@ to search directors by DIN or name and unlock their email and phone.
 - [Booking.com Scraper](https://apify.com/factden/booking-com-scraper?fpr=factden) - hotels, live prices, per-room rates, availability & occupancy, and guest reviews across a whole city or one hotel ([docs](https://github.com/factden/booking-com-scraper))
 - **[Indeed Jobs Scraper](https://apify.com/factden/indeed-jobs-scraper?fpr=factden)** ([docs](https://github.com/factden/indeed-jobs-scraper)), jobs with salaries plus free company profiles
 - **[G2 Reviews Scraper](https://apify.com/factden/g2-reviews-scraper?fpr=factden)** ([docs](https://github.com/factden/g2-reviews-scraper)), B2B software reviews
+- **[India Credit Ratings Scraper](https://apify.com/factden/india-credit-ratings?fpr=factden)** ([docs](https://github.com/factden/india-credit-ratings)), CRISIL & Acuité rating actions - pairs with MCA to turn a rated company into a full lead
 - **[All FactDen actors](https://apify.com/factden?fpr=factden)**
 
 ## License
