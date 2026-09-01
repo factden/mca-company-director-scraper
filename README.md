@@ -31,9 +31,9 @@ scraper runs as a managed Actor on Apify (nothing to install or maintain).
   just one CIN at a time.
 - 🏆 **Company + director graph:** company master record, the full board, and each director's complete
   directorship network.
-- 🏆 **Director contacts:** each director's personal email and phone, as registered with MCA on their DIN /
-  DIR-3 KYC record, as an opt-in paid enrichment. **Charged once per unique director (DIN), and only when a
-  contact is actually found**, never per row.
+- 🏆 **Director contacts:** each director's contact email and phone where available, as an opt-in paid
+  enrichment. **Charged once per unique director (DIN), and only when a contact is actually found**, never
+  per row.
 - 🏆 **Registry firmographics:** status, type, capital, ROC, addresses, and 3-year filing history.
 - 🏆 **No setup:** no portal login, no API key, no CAPTCHA handling.
 
@@ -95,7 +95,7 @@ date, state, class, industry, on-record company email, board size, capital, ROC,
   "authorisedCapital": "1000000", "paidUpCapital": "536260", "boardSize": 2 }
 
 // Directors (one row per director; directorships nested. email + phone are the director's
-// personal contact as registered with MCA, populated only when the contact enrichment is on.
+// contact details, populated only when the contact enrichment is on.
 // The values below are dummy examples.)
 {
   "din": "09397486",
@@ -133,14 +133,15 @@ see the whole board-level network at a glance (contact values below are blurred 
 - **B2B lead lists** by industry + state, with authoritative firmographics.
 - **KYB / due diligence:** status, directors, capital, and filing history in one call.
 - **Directorship-network mapping** for investors and researchers.
-- **CRM enrichment** from the system-of-record registry.
+- **CRM enrichment** from the public corporate registry.
 
 ## Compliance
 
 This actor reads public corporate-registry data for legitimate business use. The optional director contact
-enrichment (email and phone) returns personal data. You are responsible for using the results in compliance
-with applicable data-protection law, including **India's DPDP Act, 2023**, and for having a lawful basis for
-any personal data you process.
+enrichment (email and phone) returns personal data. By enabling it you act as the data controller and are
+solely responsible for using the results lawfully — including under **India's DPDP Act, 2023** and any other
+applicable laws — for having a lawful basis for any personal data you process, and for not using it for
+unsolicited marketing or spam.
 
 Director search is a paid-plan feature. On the free plan you still get full company records and board rosters
 (director names and DINs) with the on-record company email redacted (`*****@domain`); upgrade to a paid Apify plan
